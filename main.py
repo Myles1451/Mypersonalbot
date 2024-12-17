@@ -276,33 +276,21 @@ async def on_ready():
                                 buttons=[config_selfbot.activity_button_one if rpc.read_variable_json("activity_button_one") == "VOID" else rpc.read_variable_json("activity_button_one"), config_selfbot.activity_button_two if rpc.read_variable_json("activity_button_two") == "VOID" else rpc.read_variable_json("activity_button_two")])
 
     try:
-        await bot.change_presence(status=discord.Status.idle,
+        await bot.change_presence(status=discord.Status.do_not_disturb,
                                   activity=activity,
                                   afk=True,
                                   idle_since=datetime.datetime(today_date.year, today_date.month, today_date.day))
     except Exception as e:
         log.alert(f"{lang.text('no_notification_rpc')}\n{e}\n{lang.text('no_notification_rpc_two')}")
         try:
-            await bot.change_presence(status=discord.Status.idle,
+            await bot.change_presence(status=discord.Status.do_not_disturb,
                                       activity=activity,
                                       edit_settings=False)
             log.success(lang.text('no_notification_rpc_success'))
         except Exception as e:
             log.alert(f"{lang.text('error_rpc')}\n{e}\n{lang.text('error_rpc_two')}")
 
-    if rpc.read_variable_json("create_panel"):
-        with open('nuclear_icon.png', 'rb') as image:
-            nuclear_icon = image.read()
-        panel = await bot.create_group()
-        await asyncio.sleep(0.7)
-        await panel.edit(name="Nuclear Panel", icon=nuclear_icon)
-        await panel.send(f"<@{bot.user.id}>", delete_after=0.4)
-        msg = await panel.send(lang.text('panel_message'))
-        await asyncio.sleep(0.7)
-        await msg.unack()
-        # Remove embed
-        rpc.edit_variable_json("create_panel", False)
-        log.alert("NuclearPanel successfully created (check DMs!).\nIf not, please check the 'Issues' category into the GitHub's README for further help.")
+  
 
 
 def restart_selfbot():
