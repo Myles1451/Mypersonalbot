@@ -84,7 +84,7 @@ kick_reason = "ezzed by ¿ Myles14511 lol."
 
 activity_name = "¿ Myles14511"
 activity_details = " "
-activity_state = "Invisible"
+activity_state = "Railing your mother"
 application_id = 1193291951290712154
 
 streaming_url = "https://twitch.tv/twitch"
