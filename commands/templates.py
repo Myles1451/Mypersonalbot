@@ -86,7 +86,7 @@ class TemplatesCommands(commands.Cog):
                                         name="Call Of Duty: MWIII",
                                         details=lang.text('rpc_cod_details'),
                                         state=lang.text('rpc_cod_state'),
-                                        timestamps={"start": time.time()},
+                                        timestamps={"reset": time.time()},
                                         assets=assets,
                                         application_id=1193291951290712154,
                                         buttons=[config_selfbot.activity_button_one if rpc.read_variable_json("activity_button_one") == "VOID" else rpc.read_variable_json("activity_button_one"), config_selfbot.activity_button_two if rpc.read_variable_json("activity_button_two") == "VOID" else rpc.read_variable_json("activity_button_two")])
@@ -116,7 +116,7 @@ class TemplatesCommands(commands.Cog):
                                         name="YouTube",
                                         details="Watching Videos",
                                         state=None,
-                                        timestamps={"start": time.time()},
+                                        timestamps={"reset": time.time()},
                                         assets=assets,
                                         application_id=1193291951290712154,
                                         buttons=[config_selfbot.activity_button_one if rpc.read_variable_json("activity_button_one") == "VOID" else rpc.read_variable_json("activity_button_one"), config_selfbot.activity_button_two if rpc.read_variable_json("activity_button_two") == "VOID" else rpc.read_variable_json("activity_button_two")])
@@ -146,7 +146,7 @@ class TemplatesCommands(commands.Cog):
                                         name="Drift Car",
                                         details="Watching DriftCar",
                                         state=None,
-                                        timestamps={"start": time.time()},
+                                        timestamps={"reset": time.time()},
                                         assets=assets,
                                         application_id=1193291951290712154,
                                         buttons=[config_selfbot.activity_button_one if rpc.read_variable_json("activity_button_one") == "VOID" else rpc.read_variable_json("activity_button_one"), config_selfbot.activity_button_two if rpc.read_variable_json("activity_button_two") == "VOID" else rpc.read_variable_json("activity_button_two")])
@@ -176,7 +176,7 @@ class TemplatesCommands(commands.Cog):
                                         name="Visual Studio Code",
                                         details=f"🛠️ Editing {self.bot.user.name}.js (2736 lines)",
                                         state="📂 Workspace: ¿ Myles14511",
-                                        timestamps={"start": time.time()},
+                                        timestamps={"reset": time.time()},
                                         assets=assets,
                                         application_id=1193291951290712154,
                                         buttons=[config_selfbot.activity_button_one if rpc.read_variable_json("activity_button_one") == "VOID" else rpc.read_variable_json("activity_button_one"), config_selfbot.activity_button_two if rpc.read_variable_json("activity_button_two") == "VOID" else rpc.read_variable_json("activity_button_two")])
@@ -206,7 +206,7 @@ class TemplatesCommands(commands.Cog):
                                         name="Visual Studio Code",
                                         details=f"🛠️ Editing 5621",
                                         state="📂 Workspace: ¿ Myles14511",
-                                        timestamps={"start": time.time()},
+                                        timestamps={"reset": time.time()},
                                         assets=assets,
                                         application_id=1193291951290712154,
                                         buttons=[config_selfbot.activity_button_one if rpc.read_variable_json("activity_button_one") == "VOID" else rpc.read_variable_json("activity_button_one"), config_selfbot.activity_button_two if rpc.read_variable_json("activity_button_two") == "VOID" else rpc.read_variable_json("activity_button_two")])
@@ -236,7 +236,7 @@ class TemplatesCommands(commands.Cog):
                                         name="WebDeck",
                                         details="github.com/Lenochxd/WebDeck",
                                         state="Using a with Free StreamDeck!",
-                                        timestamps={"start": time.time()},
+                                        timestamps={"reset": time.time()},
                                         assets=assets,
                                         application_id=1193291951290712154,
                                         buttons=[config_selfbot.activity_button_one if rpc.read_variable_json("activity_button_one") == "VOID" else rpc.read_variable_json("activity_button_one"), config_selfbot.activity_button_two if rpc.read_variable_json("activity_button_two") == "VOID" else rpc.read_variable_json("activity_button_two")])
@@ -322,9 +322,9 @@ class TemplatesCommands(commands.Cog):
                       "small_text": None
                       }
             activity = discord.Activity(type=discord.ActivityType.playing,
-                                        name="GTA VI",
-                                        details="Welcome to Vice City !",
-                                        state="Playing SinglePlayer",
+                                        name="GTA V",
+                                        details="Welcome to LOS SANTOS !",
+                                        state="Playing Story",
                                         timestamps={"reset": time.time()},
                                         assets=assets,
                                         application_id=1193291951290712154,
@@ -344,7 +344,7 @@ class TemplatesCommands(commands.Cog):
                     log.alert(f"{lang.text('error_rpc')}\n{e}\n{lang.text('error_rpc_two')}")
                     return
 
-            await ctx.message.edit("🔫 Template \"Grand Theft Auto VI\".", delete_after=config_selfbot.deltime)
+            await ctx.message.edit("🔫 Template \"Grand Theft Auto V\".", delete_after=config_selfbot.deltime)
         elif choice == "tiktok":
             assets = {"large_image": self.templates_assets["tiktok"]["large_image"],
                       "large_text": "TikTok",
@@ -355,7 +355,7 @@ class TemplatesCommands(commands.Cog):
                                         name="TikTok",
                                         details="ForYou page",
                                         state=None,
-                                        timestamps={"start": time.time()},
+                                        timestamps={"reset": time.time()},
                                         assets=assets,
                                         application_id=1193291951290712154,
                                         buttons=[config_selfbot.activity_button_one if rpc.read_variable_json("activity_button_one") == "VOID" else rpc.read_variable_json("activity_button_one"), config_selfbot.activity_button_two if rpc.read_variable_json("activity_button_two") == "VOID" else rpc.read_variable_json("activity_button_two")])
@@ -385,7 +385,7 @@ class TemplatesCommands(commands.Cog):
                                         name=config_selfbot.activity_name if rpc.read_variable_json("activity_name") == "VOID" else rpc.read_variable_json("activity_name"),
                                         details=config_selfbot.activity_details if rpc.read_variable_json("activity_details") == "VOID" else rpc.read_variable_json("activity_details"),
                                         state=config_selfbot.activity_state if rpc.read_variable_json("activity_state") == "VOID" else rpc.read_variable_json("activity_state"),
-                                        timestamps={"start": time.time()},
+                                        timestamps={"reset": time.time()},
                                         assets=assets,
                                         application_id=config_selfbot.application_id,
                                         buttons=[config_selfbot.activity_button_one if rpc.read_variable_json("activity_button_one") == "VOID" else rpc.read_variable_json("activity_button_one"), config_selfbot.activity_button_two if rpc.read_variable_json("activity_button_two") == "VOID" else rpc.read_variable_json("activity_button_two")])
@@ -410,7 +410,7 @@ class TemplatesCommands(commands.Cog):
                                         name=config_selfbot.activity_name,
                                         details=config_selfbot.activity_details,
                                         state=config_selfbot.activity_state,
-                                        timestamps={"start": time.time()},
+                                        timestamps={"reset": time.time()},
                                         assets=config_selfbot.assets,
                                         application_id=config_selfbot.application_id,
                                         buttons=[config_selfbot.activity_button_one, config_selfbot.activity_button_two])
