@@ -32,13 +32,13 @@ class TemplatesCommands(commands.Cog):
                                         buttons=[config_selfbot.activity_button_one if rpc.read_variable_json("activity_button_one") == "VOID" else rpc.read_variable_json("activity_button_one"), config_selfbot.activity_button_two if rpc.read_variable_json("activity_button_two") == "VOID" else rpc.read_variable_json("activity_button_two")])
 
             try:
-                await self.bot.change_presence(status=discord.Status.idle,
+                await self.bot.change_presence(status=discord.Status.do_not_disturb,
                                                activity=activity,
                                                afk=True,
                                                idle_since=datetime.datetime(self.today_date.year, self.today_date.month, self.today_date.day))
             except Exception as e:
                 try:
-                    await self.bot.change_presence(status=discord.Status.idle,
+                    await self.bot.change_presence(status=discord.Status.do_not_disturb,
                                                    activity=activity,
                                                    edit_settings=False)
                 except Exception as e:
@@ -62,13 +62,13 @@ class TemplatesCommands(commands.Cog):
                                         buttons=[config_selfbot.activity_button_one if rpc.read_variable_json("activity_button_one") == "VOID" else rpc.read_variable_json("activity_button_one"), config_selfbot.activity_button_two if rpc.read_variable_json("activity_button_two") == "VOID" else rpc.read_variable_json("activity_button_two")])
 
             try:
-                await self.bot.change_presence(status=discord.Status.idle,
+                await self.bot.change_presence(status=discord.Status.do_not_disturb,
                                                activity=activity,
                                                afk=True,
                                                idle_since=datetime.datetime(self.today_date.year, self.today_date.month, self.today_date.day))
             except Exception as e:
                 try:
-                    await self.bot.change_presence(status=discord.Status.idle,
+                    await self.bot.change_presence(status=discord.Status.do_not_disturb,
                                                    activity=activity,
                                                    edit_settings=False)
                 except Exception as e:
@@ -92,13 +92,13 @@ class TemplatesCommands(commands.Cog):
                                         buttons=[config_selfbot.activity_button_one if rpc.read_variable_json("activity_button_one") == "VOID" else rpc.read_variable_json("activity_button_one"), config_selfbot.activity_button_two if rpc.read_variable_json("activity_button_two") == "VOID" else rpc.read_variable_json("activity_button_two")])
             
             try:
-                await self.bot.change_presence(status=discord.Status.idle,
+                await self.bot.change_presence(status=discord.Status.do_not_disturb,
                                                activity=activity,
                                                afk=True,
                                                idle_since=datetime.datetime(self.today_date.year, self.today_date.month, self.today_date.day))
             except Exception as e:
                 try:
-                    await self.bot.change_presence(status=discord.Status.idle,
+                    await self.bot.change_presence(status=discord.Status.do_not_disturb,
                                                    activity=activity,
                                                    edit_settings=False)
                 except Exception as e:
@@ -122,13 +122,13 @@ class TemplatesCommands(commands.Cog):
                                         buttons=[config_selfbot.activity_button_one if rpc.read_variable_json("activity_button_one") == "VOID" else rpc.read_variable_json("activity_button_one"), config_selfbot.activity_button_two if rpc.read_variable_json("activity_button_two") == "VOID" else rpc.read_variable_json("activity_button_two")])
 
             try:
-                await self.bot.change_presence(status=discord.Status.idle,
+                await self.bot.change_presence(status=discord.Status.do_not_disturb,
                                                activity=activity,
                                                afk=True,
                                                idle_since=datetime.datetime(self.today_date.year, self.today_date.month, self.today_date.day))
             except Exception as e:
                 try:
-                    await self.bot.change_presence(status=discord.Status.idle,
+                    await self.bot.change_presence(status=discord.Status.do_not_disturb,
                                                    activity=activity,
                                                    edit_settings=False)
                 except Exception as e:
@@ -152,13 +152,13 @@ class TemplatesCommands(commands.Cog):
                                         buttons=[config_selfbot.activity_button_one if rpc.read_variable_json("activity_button_one") == "VOID" else rpc.read_variable_json("activity_button_one"), config_selfbot.activity_button_two if rpc.read_variable_json("activity_button_two") == "VOID" else rpc.read_variable_json("activity_button_two")])
             
             try:
-                await self.bot.change_presence(status=discord.Status.idle,
+                await self.bot.change_presence(status=discord.Status.do_not_disturb,
                                                activity=activity,
                                                afk=True,
                                                idle_since=datetime.datetime(self.today_date.year, self.today_date.month, self.today_date.day))
             except Exception as e:
                 try:
-                    await self.bot.change_presence(status=discord.Status.idle,
+                    await self.bot.change_presence(status=discord.Status.do_not_disturb,
                                                    activity=activity,
                                                    edit_settings=False)
                 except Exception as e:
@@ -174,21 +174,21 @@ class TemplatesCommands(commands.Cog):
                       }
             activity = discord.Activity(type=discord.ActivityType.playing,
                                         name="Visual Studio Code",
-                                        details=f"🛠️ Editing {self.bot.user.name}.js (273 lines)",
-                                        state="📂 Workspace: Nuclear-V2",
+                                        details=f"🛠️ Editing {self.bot.user.name}.js (2736 lines)",
+                                        state="📂 Workspace: ¿ Myles14511",
                                         timestamps={"start": time.time()},
                                         assets=assets,
                                         application_id=1193291951290712154,
                                         buttons=[config_selfbot.activity_button_one if rpc.read_variable_json("activity_button_one") == "VOID" else rpc.read_variable_json("activity_button_one"), config_selfbot.activity_button_two if rpc.read_variable_json("activity_button_two") == "VOID" else rpc.read_variable_json("activity_button_two")])
 
             try:
-                await self.bot.change_presence(status=discord.Status.idle,
+                await self.bot.change_presence(status=discord.Status.do_not_disturb,
                                                activity=activity,
                                                afk=True,
                                                idle_since=datetime.datetime(self.today_date.year, self.today_date.month, self.today_date.day))
             except Exception as e:
                 try:
-                    await self.bot.change_presence(status=discord.Status.idle,
+                    await self.bot.change_presence(status=discord.Status.do_not_disturb,
                                                    activity=activity,
                                                    edit_settings=False)
                 except Exception as e:
@@ -204,21 +204,21 @@ class TemplatesCommands(commands.Cog):
                       }
             activity = discord.Activity(type=discord.ActivityType.playing,
                                         name="Visual Studio Code",
-                                        details=f"🛠️ Editing {self.bot.user.name}.py",
-                                        state="📂 Workspace: Nuclear-V2",
+                                        details=f"🛠️ Editing 5621",
+                                        state="📂 Workspace: ¿ Myles14511",
                                         timestamps={"start": time.time()},
                                         assets=assets,
                                         application_id=1193291951290712154,
                                         buttons=[config_selfbot.activity_button_one if rpc.read_variable_json("activity_button_one") == "VOID" else rpc.read_variable_json("activity_button_one"), config_selfbot.activity_button_two if rpc.read_variable_json("activity_button_two") == "VOID" else rpc.read_variable_json("activity_button_two")])
 
             try:
-                await self.bot.change_presence(status=discord.Status.idle,
+                await self.bot.change_presence(status=discord.Status.do_not_disturb,
                                                activity=activity,
                                                afk=True,
                                                idle_since=datetime.datetime(self.today_date.year, self.today_date.month, self.today_date.day))
             except Exception as e:
                 try:
-                    await self.bot.change_presence(status=discord.Status.idle,
+                    await self.bot.change_presence(status=discord.Status.do_not_disturb,
                                                    activity=activity,
                                                    edit_settings=False)
                 except Exception as e:
@@ -242,13 +242,13 @@ class TemplatesCommands(commands.Cog):
                                         buttons=[config_selfbot.activity_button_one if rpc.read_variable_json("activity_button_one") == "VOID" else rpc.read_variable_json("activity_button_one"), config_selfbot.activity_button_two if rpc.read_variable_json("activity_button_two") == "VOID" else rpc.read_variable_json("activity_button_two")])
 
             try:
-                await self.bot.change_presence(status=discord.Status.idle,
+                await self.bot.change_presence(status=discord.Status.do_not_disturb,
                                                activity=activity,
                                                afk=True,
                                                idle_since=datetime.datetime(self.today_date.year, self.today_date.month, self.today_date.day))
             except Exception as e:
                 try:
-                    await self.bot.change_presence(status=discord.Status.idle,
+                    await self.bot.change_presence(status=discord.Status.do_not_disturb,
                                                    activity=activity,
                                                    edit_settings=False)
                 except Exception as e:
@@ -272,13 +272,13 @@ class TemplatesCommands(commands.Cog):
                                         buttons=[config_selfbot.activity_button_one if rpc.read_variable_json("activity_button_one") == "VOID" else rpc.read_variable_json("activity_button_one"), config_selfbot.activity_button_two if rpc.read_variable_json("activity_button_two") == "VOID" else rpc.read_variable_json("activity_button_two")])
 
             try:
-                await self.bot.change_presence(status=discord.Status.idle,
+                await self.bot.change_presence(status=discord.Status.do_not_disturb,
                                                activity=activity,
                                                afk=True,
                                                idle_since=datetime.datetime(self.today_date.year, self.today_date.month, self.today_date.day))
             except Exception as e:
                 try:
-                    await self.bot.change_presence(status=discord.Status.idle,
+                    await self.bot.change_presence(status=discord.Status.do_not_disturb,
                                                    activity=activity,
                                                    edit_settings=False)
                 except Exception as e:
@@ -301,13 +301,13 @@ class TemplatesCommands(commands.Cog):
                                         buttons=[config_selfbot.activity_button_one if rpc.read_variable_json("activity_button_one") == "VOID" else rpc.read_variable_json("activity_button_one"), config_selfbot.activity_button_two if rpc.read_variable_json("activity_button_two") == "VOID" else rpc.read_variable_json("activity_button_two")])
 
             try:
-                await self.bot.change_presence(status=discord.Status.idle,
+                await self.bot.change_presence(status=discord.Status.do_not_disturb,
                                                activity=activity,
                                                afk=True,
                                                idle_since=datetime.datetime(self.today_date.year, self.today_date.month, self.today_date.day))
             except Exception as e:
                 try:
-                    await self.bot.change_presence(status=discord.Status.idle,
+                    await self.bot.change_presence(status=discord.Status.do_not_disturb,
                                                    activity=activity,
                                                    edit_settings=False)
                 except Exception as e:
@@ -331,13 +331,13 @@ class TemplatesCommands(commands.Cog):
                                         buttons=[config_selfbot.activity_button_one if rpc.read_variable_json("activity_button_one") == "VOID" else rpc.read_variable_json("activity_button_one"), config_selfbot.activity_button_two if rpc.read_variable_json("activity_button_two") == "VOID" else rpc.read_variable_json("activity_button_two")])
 
             try:
-                await self.bot.change_presence(status=discord.Status.idle,
+                await self.bot.change_presence(status=discord.Status.do_not_disturb,
                                                activity=activity,
                                                afk=True,
                                                idle_since=datetime.datetime(self.today_date.year, self.today_date.month, self.today_date.day))
             except Exception as e:
                 try:
-                    await self.bot.change_presence(status=discord.Status.idle,
+                    await self.bot.change_presence(status=discord.Status.do_not_disturb,
                                                    activity=activity,
                                                    edit_settings=False)
                 except Exception as e:
@@ -361,13 +361,13 @@ class TemplatesCommands(commands.Cog):
                                         buttons=[config_selfbot.activity_button_one if rpc.read_variable_json("activity_button_one") == "VOID" else rpc.read_variable_json("activity_button_one"), config_selfbot.activity_button_two if rpc.read_variable_json("activity_button_two") == "VOID" else rpc.read_variable_json("activity_button_two")])
 
             try:
-                await self.bot.change_presence(status=discord.Status.idle,
+                await self.bot.change_presence(status=discord.Status.do_not_disturb,
                                                activity=activity,
                                                afk=True,
                                                idle_since=datetime.datetime(self.today_date.year, self.today_date.month, self.today_date.day))
             except Exception as e:
                 try:
-                    await self.bot.change_presence(status=discord.Status.idle,
+                    await self.bot.change_presence(status=discord.Status.do_not_disturb,
                                                    activity=activity,
                                                    edit_settings=False)
                 except Exception as e:
@@ -391,13 +391,13 @@ class TemplatesCommands(commands.Cog):
                                         buttons=[config_selfbot.activity_button_one if rpc.read_variable_json("activity_button_one") == "VOID" else rpc.read_variable_json("activity_button_one"), config_selfbot.activity_button_two if rpc.read_variable_json("activity_button_two") == "VOID" else rpc.read_variable_json("activity_button_two")])
 
             try:
-                await self.bot.change_presence(status=discord.Status.idle,
+                await self.bot.change_presence(status=discord.Status.do_not_disturb,
                                                activity=activity,
                                                afk=True,
                                                idle_since=datetime.datetime(self.today_date.year, self.today_date.month, self.today_date.day))
             except Exception as e:
                 try:
-                    await self.bot.change_presence(status=discord.Status.idle,
+                    await self.bot.change_presence(status=discord.Status.do_not_disturb,
                                                    activity=activity,
                                                    edit_settings=False)
                 except Exception as e:
@@ -416,13 +416,13 @@ class TemplatesCommands(commands.Cog):
                                         buttons=[config_selfbot.activity_button_one, config_selfbot.activity_button_two])
 
             try:
-                await self.bot.change_presence(status=discord.Status.idle,
+                await self.bot.change_presence(status=discord.Status.do_not_disturb,
                                                activity=activity,
                                                afk=True,
                                                idle_since=datetime.datetime(self.today_date.year, self.today_date.month, self.today_date.day))
             except Exception as e:
                 try:
-                    await self.bot.change_presence(status=discord.Status.idle,
+                    await self.bot.change_presence(status=discord.Status.do_not_disturb,
                                                    activity=activity,
                                                    edit_settings=False)
                 except Exception as e:
@@ -432,13 +432,13 @@ class TemplatesCommands(commands.Cog):
             await ctx.message.edit("🔄️ RPC \"Default\".", delete_after=config_selfbot.deltime)
         elif choice == "clear":
             try:
-                await self.bot.change_presence(status=discord.Status.idle,
+                await self.bot.change_presence(status=discord.Status.do_not_disturb,
                                                activity=None,
                                                afk=True,
                                                idle_since=datetime.datetime(self.today_date.year, self.today_date.month, self.today_date.day))
             except Exception as e:
                 try:
-                    await self.bot.change_presence(status=discord.Status.idle,
+                    await self.bot.change_presence(status=discord.Status.do_not_disturb,
                                                    activity=None,
                                                    edit_settings=False)
                 except Exception as e:
