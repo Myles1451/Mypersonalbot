@@ -7,7 +7,7 @@ from utils import rpc
 
 # en: SelfBot name
 # fr: Nom du SelfBot
-selfbot_name = "Nuclear" # Tip: Don't use the "Selfbot" word into your selfbot name, most of servers blacklist this word with AutoMod
+selfbot_name = "¿ Myles14511" # Tip: Don't use the "Selfbot" word into your selfbot name, most of servers blacklist this word with AutoMod
 
 # en: Account Token.
 # fr: Token du compte.
