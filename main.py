@@ -195,7 +195,7 @@ bot = commands.Bot(command_prefix=config_selfbot.prefix,
                    help_command=None)
 
 # Get the start timestamp to put the time it took to start at on_ready()
-reset = time.time()
+reset_time = time.time()
 
 @bot.event
 async def on_ready():
