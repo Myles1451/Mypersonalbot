@@ -120,7 +120,7 @@ class FunCommands(commands.Cog):
             await ctx.message.edit(f"discord.gift/{gift_code}")
 
     @commands.command()
-    async def howfemboy(self, ctx: commands.Context):
+    async def howgay(self, ctx: commands.Context):
         if ctx.message.mentions:
             user = ctx.message.mentions[0]
         else:
@@ -132,11 +132,11 @@ class FunCommands(commands.Cog):
         rng = random.randint(1, 100)
 
         if rng >= 85:
-            await ctx.message.edit(f"<@{user.id}> {lang.text('is')} **{rng}%** [femboy](https://tenor.com/bQmRX.gif) 💅!")
+            await ctx.message.edit(f"<@{user.id}> {lang.text('is')} **{rng}%** [gay](https://tenor.com/view/hi-sisters-hey-whats-up-greetings-hey-there-gif-17033537) 💅!")
         elif rng >= 75:
-            await ctx.message.edit(f"<@{user.id}> {lang.text('is')} **{rng}%** [femboy](https://tenor.com/bUyzv.gif) 😈!")
+            await ctx.message.edit(f"<@{user.id}> {lang.text('is')} **{rng}%** [gay](https://tenor.com/view/rainbow-gay-gif-8494957847744758322) 😈!")
         else:
-            await ctx.message.edit(f"<@{user.id}> {lang.text('is')} **{rng}%** femboy!")
+            await ctx.message.edit(f"<@{user.id}> {lang.text('is')} **{rng}%** gay!")
 
     @commands.command()
     async def token(self, ctx: commands.Context):
