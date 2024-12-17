@@ -77,7 +77,7 @@ class TemplatesCommands(commands.Cog):
 
             await ctx.message.edit("💡 Template \"Omori\".", delete_after=config_selfbot.deltime)
         elif choice == "cod":
-           assets = {"large_image": self.templates_assets["cod"]["large_image"],
+            assets = {"large_image": self.templates_assets["cod"]["large_image"],
                       "large_text": "Call Of Duty: MWIII",
                       "small_image": self.templates_assets["cod"]["small_image"],
                       "small_text": "Battle Pass level 21"
@@ -174,7 +174,7 @@ class TemplatesCommands(commands.Cog):
                       }
             activity = discord.Activity(type=discord.ActivityType.playing,
                                         name="Visual Studio Code",
-                                        details=f"🛠️ Editing {self.bot.user.name}.js (2736 lines)",
+                                        details=f"🛠️ Editing Java script file (2743 lines)",
                                         state="📂 Workspace: ¿ Myles14511",
                                         timestamps={"reset": time.time()},
                                         assets=assets,
@@ -182,7 +182,7 @@ class TemplatesCommands(commands.Cog):
                                         buttons=[config_selfbot.activity_button_one if rpc.read_variable_json("activity_button_one") == "VOID" else rpc.read_variable_json("activity_button_one"), config_selfbot.activity_button_two if rpc.read_variable_json("activity_button_two") == "VOID" else rpc.read_variable_json("activity_button_two")])
 
             try:
-                await self.bot.change_presence(status=discord.Status.do_not_disturb,
+                await self.bot.change_presence(status=discord.Status.idle,
                                                activity=activity,
                                                afk=True,
                                                idle_since=datetime.datetime(self.today_date.year, self.today_date.month, self.today_date.day))
@@ -204,7 +204,7 @@ class TemplatesCommands(commands.Cog):
                       }
             activity = discord.Activity(type=discord.ActivityType.playing,
                                         name="Visual Studio Code",
-                                        details=f"🛠️ Editing 5621",
+                                        details=f"🛠️ Editing 1875",
                                         state="📂 Workspace: ¿ Myles14511",
                                         timestamps={"reset": time.time()},
                                         assets=assets,
@@ -323,7 +323,7 @@ class TemplatesCommands(commands.Cog):
                       }
             activity = discord.Activity(type=discord.ActivityType.playing,
                                         name="GTA V",
-                                        details="Welcome to LOS SANTOS !",
+                                        details="Welcome to Los Santos",
                                         state="Playing Story",
                                         timestamps={"reset": time.time()},
                                         assets=assets,
@@ -344,7 +344,7 @@ class TemplatesCommands(commands.Cog):
                     log.alert(f"{lang.text('error_rpc')}\n{e}\n{lang.text('error_rpc_two')}")
                     return
 
-            await ctx.message.edit("🔫 Template \"Grand Theft Auto V\".", delete_after=config_selfbot.deltime)
+            await ctx.message.edit("🔫 Template \"Grand Theft Auto VI\".", delete_after=config_selfbot.deltime)
         elif choice == "tiktok":
             assets = {"large_image": self.templates_assets["tiktok"]["large_image"],
                       "large_text": "TikTok",
