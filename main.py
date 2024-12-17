@@ -195,7 +195,7 @@ bot = commands.Bot(command_prefix=config_selfbot.prefix,
                    help_command=None)
 
 # Get the start timestamp to put the time it took to start at on_ready()
-reset_time = time.time()
+start_time = time.time()
 
 @bot.event
 async def on_ready():
@@ -270,7 +270,7 @@ async def on_ready():
                                 name=config_selfbot.activity_name if rpc.read_variable_json("activity_name") == "VOID" else rpc.read_variable_json("activity_name"),
                                 details=config_selfbot.activity_details if rpc.read_variable_json("activity_details") == "VOID" else rpc.read_variable_json("activity_details"),
                                 state=config_selfbot.activity_state if rpc.read_variable_json("activity_state") == "VOID" else rpc.read_variable_json("activity_state"),
-                                timestamps={"start": time.time()},
+                                timestamps={"reset": time.time()},
                                 assets=assets,
                                 application_id=config_selfbot.application_id,
                                 buttons=[config_selfbot.activity_button_one if rpc.read_variable_json("activity_button_one") == "VOID" else rpc.read_variable_json("activity_button_one"), config_selfbot.activity_button_two if rpc.read_variable_json("activity_button_two") == "VOID" else rpc.read_variable_json("activity_button_two")])
