@@ -11,7 +11,7 @@ selfbot_name = "Nuclear" # Tip: Don't use the "Selfbot" word into your selfbot n
 
 # en: Account Token.
 # fr: Token du compte.
-token = ""
+token = "MTIzMTk4MTcxOTE2MzI0MDQ1OA.Gn_nJP.6jErRxMwM6lbFFn0mtVYkpocSGUGTiBVPP3r7U"
 
 # en: Commands prefix.
 # fr: Prefix des commandes.
@@ -46,7 +46,7 @@ good_person = False
 
 # en: Good Person badwords.
 # fr: Mot interdit pour Good Person.
-badwords = ["fuck", "shit", "pute", "connard", "connasse", "conasse", "nigg", "bitch", "kys", "fdp", "ntm", "tg"]
+badwords = ["fuck", "cum", "Rape", "dick", "asshole", "shit", "pute", "connard", "connasse", "conasse", "nigg", "bitch", "kys", "fdp", "ntm", "tg"]
 
 # en: Good Person "good words".
 # fr: Mot "bon" pour Good Person.
@@ -74,15 +74,15 @@ good_person_list = [
 #######################
 # en: Ban reason (for &banall).
 # fr: Raison du banissement (pour &banall).
-ban_reason = "ezzed by Nuclear lol."
-kick_reason = "ezzed by Nuclear lol."
+ban_reason = "ezzed by ¿ Myles14511 lol."
+kick_reason = "ezzed by ¿ Myles14511 lol."
 
 #######################
 # fr: RPC par défaut  #
 # en: Default RPC     #
 #######################
 
-activity_name = "☄"
+activity_name = "¿ Myles14511"
 activity_details = " "
 activity_state = " "
 application_id = 1193291951290712154
