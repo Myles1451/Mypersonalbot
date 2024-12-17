@@ -83,8 +83,8 @@ kick_reason = "ezzed by ¿ Myles14511 lol."
 #######################
 
 activity_name = "¿ Myles14511"
-activity_details = " In bed"
-activity_state = "railing your mother"
+activity_details = " In the strip club"
+activity_state = "with your mother"
 application_id = 1193291951290712154
 
 streaming_url = "https://twitch.tv/twitch"
