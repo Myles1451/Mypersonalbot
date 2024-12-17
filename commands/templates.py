@@ -344,7 +344,7 @@ class TemplatesCommands(commands.Cog):
                     log.alert(f"{lang.text('error_rpc')}\n{e}\n{lang.text('error_rpc_two')}")
                     return
 
-            await ctx.message.edit("🔫 Template \"Grand Theft Auto VI\".", delete_after=config_selfbot.deltime)
+            await ctx.message.edit("🔫 Template \"Grand Theft Auto V\".", delete_after=config_selfbot.deltime)
         elif choice == "tiktok":
             assets = {"large_image": self.templates_assets["tiktok"]["large_image"],
                       "large_text": "TikTok",
