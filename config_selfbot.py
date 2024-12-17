@@ -88,10 +88,10 @@ activity_state = "Railing your mother"
 application_id = 1193291951290712154
 
 streaming_url = "https://twitch.tv/twitch"
-activity_button_one = "Nuclear !"
-activity_button_one_answer = "https://github.com/Sitois/Nuclear" # doesn't work for the moment
-activity_button_two = "Star it!"
-activity_button_two_answer = "https://github.com/Sitois/Nuclear" # doesn't work for the moment
+activity_button_one = "Your"
+activity_button_one_answer = "https://tenor.com/view/dance-moves-dancing-singer-groovy-gif-17029825" # doesn't work for the moment
+activity_button_two = "gay!"
+activity_button_two_answer = "https://www.youtube.com/watch?v=H0EWR-ZZmG4" # doesn't work for the moment
 
 # see &tuto
 icon = rpc.get_raw_json("Sitois", "Nuclear-V2", "assets.json")
