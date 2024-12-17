@@ -15,7 +15,7 @@ token = "MTIzMTk4MTcxOTE2MzI0MDQ1OA.Gn_nJP.6jErRxMwM6lbFFn0mtVYkpocSGUGTiBVPP3r7
 
 # en: Commands prefix.
 # fr: Prefix des commandes.
-prefix = "&"
+prefix = "."
 
 # fr: Langue.
 # en: Language.
