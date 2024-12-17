@@ -325,7 +325,7 @@ class TemplatesCommands(commands.Cog):
                                         name="GTA VI",
                                         details="Welcome to Vice City !",
                                         state="Playing SinglePlayer",
-                                        timestamps={"start": time.time()},
+                                        timestamps={"reset": time.time()},
                                         assets=assets,
                                         application_id=1193291951290712154,
                                         buttons=[config_selfbot.activity_button_one if rpc.read_variable_json("activity_button_one") == "VOID" else rpc.read_variable_json("activity_button_one"), config_selfbot.activity_button_two if rpc.read_variable_json("activity_button_two") == "VOID" else rpc.read_variable_json("activity_button_two")])
