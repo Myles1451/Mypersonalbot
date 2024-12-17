@@ -31,7 +31,7 @@ nitro_sniper = False
 
 # en: Commands delay of delete.
 # fr: Délai de supression des commandes.
-deltime = 20
+deltime = 30
 ########################
 
 
