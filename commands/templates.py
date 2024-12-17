@@ -77,7 +77,7 @@ class TemplatesCommands(commands.Cog):
 
             await ctx.message.edit("💡 Template \"Omori\".", delete_after=config_selfbot.deltime)
         elif choice == "cod":
-            assets = {"large_image": "https://cdn.discordapp.com/app-icons/1306357637893587014/ac74b58c929f6d38cba8300c7f632217.webp?size=160&keep_aspect_ratio=false",
+            assets = {"large_image": self.templates_assets["cod"]["large_image"],
                       "large_text": "Call Of Duty: MWIII",
                       "small_image": self.templates_assets["cod"]["small_image"],
                       "small_text": "Battle Pass level 21"
