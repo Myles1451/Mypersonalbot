@@ -77,7 +77,7 @@ class TemplatesCommands(commands.Cog):
 
             await ctx.message.edit("💡 Template \"Omori\".", delete_after=config_selfbot.deltime)
         elif choice == "cod":
-            assets = {"large_image": self.templates_assets["cod"]["large_image"],
+            assets = {"large_image": self.templates_assets["cod"]["https://holatelcel.com/wp-content/uploads/2023/08/COD-MW3.png"],
                       "large_text": "Call Of Duty: MWIII",
                       "small_image": self.templates_assets["cod"]["small_image"],
                       "small_text": "Battle Pass level 21"
