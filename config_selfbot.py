@@ -11,7 +11,7 @@ selfbot_name = "¿ Myles14511" # Tip: Don't use the "Selfbot" word into your sel
 
 # en: Account Token.
 # fr: Token du compte.
-token = "WzEyMzE5ODE3MTkxNjMyNDA0NTgsIjIuMTAxLjUwLjE5MSJd.Z2G0ug.kHUc4QkF0bJXP0MdCJF4pvh1uA4"
+token = "Add user token here"
 
 # en: Commands prefix.
 # fr: Prefix des commandes.
